@@ -1,0 +1,101 @@
+.testimonial{
+    height: 622px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #292e47;
+    background-image: url('Imagenes/Testimonialsection/orbit.png');
+    background-position: 0px 0px;
+    background-size: contain;
+
+}
+
+.testimonial .contenedor{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1320px;
+}
+
+
+.testimonial h3{
+    color: #ecf7ff;    
+    font-size: 40px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 120px;
+    font-weight: bold;
+
+}
+
+.testimonial .texto{
+    color: #ffc600;
+    max-width: 600px;
+    font-size: 24px;
+    line-height: 160%;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.cliente{
+    align-items: center;
+    display: flex;
+    -webkit-box-align: center;
+    margin-top: 80px;
+}
+
+.cliente .imagen{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('Imagenes/Testimonialsection/profile.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-cliente{
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+
+.info-cliente .nombre{
+    color: #a2d6f9;
+    font-size: 17px;
+}
+
+.info-cliente .pagina{
+    color: #ecf7ff;
+    font-size: 13px;
+}
+
+.emoji{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.emoji.top-left{
+    left: 50px;
+    top: 50px;
+}
+
+.emoji.top-right{
+    right: 50px;
+    bottom: 0px;
+}
+
+
+.emoji.bottom-left{
+    left: 50px;
+    bottom: 0px;
+}
+
+.emoji.bottom-right{
+    right: 50px;
+    top: 50px;
+}

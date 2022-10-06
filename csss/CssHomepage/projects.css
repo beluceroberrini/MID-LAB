@@ -1,0 +1,63 @@
+.projects{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      
+}
+.projects h2{
+    font-size: 40px;
+    padding: 45px 12px;
+}
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+
+.card h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #292e47;
+    
+
+}
+
+.card{
+    width: 340px;
+    height: 444px;
+    max-width: 340px;
+    max-height: 444px;
+    background-color: #fff;
+    margin: 25px;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 240px;
+}
+
+.card h3{
+    margin: 25px;
+    color: #292e47;
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: 500;
+}
+
+.card p, a{
+    margin: 25px;
+}
+
+.card a{
+    display: inline-block;
+    color: #072ac8;
+    font-size: 17px;
+    font-weight: 500;
+}

@@ -1,0 +1,103 @@
+.hero .conteiner-general{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    height: 650px;
+    left: 170px;
+    position: 0px;
+
+}
+
+.hero .contenedor{
+    max-width: 530px;
+    display: block;
+
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin: 0.67em 0;
+    line-height: 130%;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.texto{
+    color: #6b708d;
+    display: block;
+    max-width: 435px;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+
+.hero-buttons{
+    display: block;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.hero-text-button{
+    color: #6b708d;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.in-touch{
+    font-size: 17px;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding: 15px 30px;
+    background-color: #072ac8;
+    display: inline-block;
+    color: white;
+    line-height: inherit;
+    cursor: pointer;
+    border-radius: 0;
+
+}
+
+.hero-imagenes{
+    position: relative;    
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.hero-imagenes .hero-card{
+    position: absolute;
+    left: -19%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    max-width: 375px;
+
+}
+
+.hero-imagenes .mano{
+ position: absolute;
+ left: auto;
+ top: auto;
+ right: -11%;
+ bottom: -17%;
+ max-width: 375px;
+}
+

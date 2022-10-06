@@ -1,0 +1,19 @@
+.client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin-top: 55px;
+    padding-left: 100px;
+    
+}
+
+.client .logos{
+    display: flex;
+    width: 150px;
+    height: 96px;
+    max-height: 96px;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+}

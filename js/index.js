@@ -1,3 +1,9 @@
+const contact = document.querySelector('.contact-us');
+
+
+
+
+
 const data = () =>{
     fetch("https://baconipsum.com/api/?type=meat-and-filler")
     .then(info => info.json())
@@ -55,3 +61,5 @@ const texto3 = () =>{
     .catch((err) => console.log(`Ha habido un problema: ${err}`));
 }
 texto3();
+
+

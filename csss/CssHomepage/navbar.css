@@ -33,7 +33,7 @@
 
 }
 
-.navbar-item.item1{
+.navbar-item:hover{
     color: #0082f3;
 }
 

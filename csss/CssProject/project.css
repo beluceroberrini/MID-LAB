@@ -38,15 +38,15 @@
     font-style: normal;
     line-height: 30px;
     color: #6b708d;
-
+    overflow: hidden;
 }
+
 .Others{
     padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-      
 }
 
 

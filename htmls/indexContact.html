@@ -8,9 +8,11 @@
     <title>Circle</title>
     <link rel="stylesheet" href="../csss/CssHomepage/index.css">
     <link rel="stylesheet" href="/csss/CssProject/project.css">
+    <link rel="stylesheet" href="/csss/Csscontactus/contactus.css">
 </head>
 
 <body>
+    <section>
     <header>
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
@@ -49,78 +51,46 @@
             </div>
         </nav>
     </header>
+<section class="contact">
+    <div class="contact-contenedor">
 
-</body>
+        <h1 class="contact-title">Contact Us</h1>
+         <form class="contact-form" method="POST">
+          
+            <div class="contact-name">            
+            <label for="full name">Full Name *</label>
+            <input class="name contact-field" id="#name-input" type="text" placeholder="Enter your full name" required>
+          </div>
+        
+        <div class="email-phone">
+            
+            <div class="emailform">
+                <label for="email">Email</label>
+                <input class="emailform contact-field" id="#email-input" type="email" placeholder="Enter your email address">
+            </div>
+        
+            <div class="phone">
+                <label for="phone">Phone</label>
+                <input class="phone contact-field" id="phone-input" type="number" placeholder="Enter your phone number">
+            </div>
+        </div>
+        
+        <div class="message">
+            <label for="message">Message*</label>
+            <textarea class="message contact-field" id="message-input" placeholder="Write your message here..." required></textarea>
+        </div>
+    </form>
+    <button id="submit-btn">Submit</button>
+</div>
+</section>
+
+
+
+
+
+
+
+
+ </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h1 class="title-contactus">Contact Us</h1>
-<!--FORMULARIO-->
-<form class="contact-form" method="post">
-<div class="contact-form-name">
-<!--FULL NAME-->
-<label for="full name">Full Name*</label>
-<input class="input full-name-input "type="text" placeholder="Enter your full name" required>
-</div>
-<!--EMAIL + PHONE  -->
-<div class="contact-form-email-phone">
-<!--EMAIL-->
-<div class="contact-form-email">
-  <label for="email">Email</label>
-  <input class="input email-input" type="email" placeholder="Enter your email address">
-</div>
-<!--PHONE-->
-<div class="contact-form-phone">
-  <label for="phone">Phone</label>
-  <input class="input phone-input" type="number" placeholder="Enter your phone number">
-</div>
-</div>
-<!--MESSAGE-->
-<div class="contact-form-message">
-<label for="message">Message*</label>
-<textarea class=" textarea message-input" placeholder="Write your message here..." required></textarea>
-</div>
-<button class="button-contact-form">Submit</button>
-</form>

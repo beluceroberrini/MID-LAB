@@ -1,0 +1,24 @@
+.project2{
+    justify-content: center;
+    align-items: center;
+}
+
+.project2 .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.project2 #fetchtexto{
+    margin-top: 65px;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 150%;
+    color: #6b708d;
+
+}
+
+.Others h2{
+    font-size: 40px;
+    padding: 45px 12px;
+}
+
+

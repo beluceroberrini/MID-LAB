@@ -26,7 +26,6 @@
 .navbar-item{
     font-size: 17px;
     padding: 20px;
-    font-weight: 500;
     text-align: left;
     position: relative;
     display: inline-block;   
@@ -34,21 +33,22 @@
 
 }
 
+.navbar-item.item1{
+    color: #0082f3;
+}
+
 .button{
     background-color: #072ACB;
     border-bottom: rgb(255, 255, 255);
     position: relative;
-    float: right;
-    padding: 18px;
+    padding: 15px 30px;
     font-size: 17px;
-    display: block;
+    display: inline-block;
     cursor: pointer;
-    box-sizing: border-box;
     color: rgb(242, 244, 252);
-    text-decoration-style: solid;
-    text-decoration-line: none;
 }
 
 .button:hover{
+    background-color: #292e47;
 
 }

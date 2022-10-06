@@ -1,24 +1,58 @@
-.project2{
-    justify-content: center;
-    align-items: center;
-}
 
-.project2 .contenedor{
+
+.data-subtitle{
     display: flex;
     justify-content: space-between;
 }
-.project2 #fetchtexto{
-    margin-top: 65px;
-    font-size: 15px;
-    font-style: normal;
-    line-height: 150%;
+
+.subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 34px;
     color: #6b708d;
+    
+}
+
+.project2 .date{
+    font-size: 20px;
+}
+
+.date2{
+    color: #a5a5a5;
+}
+
+
+.projectImage{
+    background-image: url(/Imagenes/Proyectsection/1.jpg);
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    filter: drop-shadow(28px 11px 31px #a22abd80);
 
 }
 
+.project2 #fetchtexto{
+    margin-top: 65px;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    color: #6b708d;
+
+}
+.Others{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      
+}
+
+
 .Others h2{
     font-size: 40px;
-    padding: 45px 12px;
+    padding: 40px 12px;
 }
 
 

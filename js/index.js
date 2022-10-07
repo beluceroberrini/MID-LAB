@@ -43,7 +43,7 @@ const texto1 = () =>{
     fetch('https://jsonplaceholder.typicode.com/posts/4')
     .then(info => info.json())
     .then(texto => {
-        console.log(texto);
+            console.log(texto);
         document.querySelector('#texto1').innerHTML = texto.body
     })
     .catch((err) => console.log(`Ha habido un problema: ${err}`));

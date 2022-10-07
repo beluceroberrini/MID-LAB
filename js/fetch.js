@@ -1,6 +1,6 @@
 
 const simplify = () =>{
-    fetch('https://jsonplaceholder.typicode.com/posts/1')
+    fetch('https://jsonplaceholder.typicode.com/posts/8')
     .then(info => info.json())
     .then(titulo => document.querySelector('#card1').innerHTML = titulo.title)
     .catch((err) => console.log(`Ha habido un problema: ${err}`)); 
@@ -17,7 +17,7 @@ const dashcoin = () =>{
 dashcoin();
 
 const vectorify = () =>{
-    fetch('https://jsonplaceholder.typicode.com/posts/3')
+    fetch('https://jsonplaceholder.typicode.com/posts/7')
     .then(info => info.json())
     .then(titulo => document.querySelector('#card3').innerHTML = titulo.title)
     .catch((err) => console.log(`Ha habido un problema: ${err}`)); 

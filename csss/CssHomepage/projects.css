@@ -30,12 +30,13 @@
 
 .card{
     width: 340px;
-    height: 444px;
+    height: 500px;
     max-width: 340px;
-    max-height: 444px;
+    max-height: 500px;
     background-color: #fff;
     margin: 25px;
     text-overflow: ellipsis;
+    text-decoration: dotted;
     
 }
 

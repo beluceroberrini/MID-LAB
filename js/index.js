@@ -3,6 +3,8 @@ let email  = document.querySelector('#email-input');
 let phone  = document.querySelector('#phone-input') ;
 let message = document.querySelector('#message-input');
 
+console.log(fullname);
+
 const data = () =>{
     fetch("https://baconipsum.com/api/?type=meat-and-filler")
     .then(info => info.json())
@@ -40,7 +42,10 @@ vectorify();
 const texto1 = () =>{
     fetch('https://jsonplaceholder.typicode.com/posts/4')
     .then(info => info.json())
-    .then(texto => document.querySelector('#texto1').innerHTML = texto.body)
+    .then(texto => {
+        console.log(texto);
+        document.querySelector('#texto1').innerHTML = texto.body
+    })
     .catch((err) => console.log(`Ha habido un problema: ${err}`));
 }
 texto1();

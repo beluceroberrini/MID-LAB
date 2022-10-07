@@ -35,7 +35,7 @@
     max-height: 444px;
     background-color: #fff;
     margin: 25px;
-    overflow: hidden;
+    text-overflow: ellipsis;
     
 }
 

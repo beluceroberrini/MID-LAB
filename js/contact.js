@@ -11,7 +11,7 @@ form.addEventListener('submit', event => {
 
     if (fullname.value.trim() === '') {
         throw new Error('Debe completar el campo')
-    } else if (phone.value.lenght !== 9) {
+    } else if (phone.value.length !== 9) {
         throw Error('Error de tipeo')
     } else if (message.value === '') {
         throw Error('Debe completar el campo')
@@ -22,13 +22,10 @@ form.addEventListener('submit', event => {
             phone: phone.value,
             message: message.value
         }
-        //    contact.fullname = fullname.value;
-        //    contact.email = email.value;
-        //    contact.phone = phone.value;
-        //    contact.message = message.value;
+        
         console.log(contact);
     }
-    //contact(fullname.value, email.value, phone.value, message.value);
+    
 })
 
 

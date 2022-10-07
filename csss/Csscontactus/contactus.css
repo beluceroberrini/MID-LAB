@@ -32,7 +32,7 @@
     border-radius: 5px;
 }
 .emailform, .phone {
-    width: 50%;
+    width: 98%;
 }
 
 #message-input {
@@ -49,6 +49,7 @@
     color: rgb(242, 244, 252);
     border-style: none;
     border-radius: 5px;
+    width: 100%;
 
 }
 

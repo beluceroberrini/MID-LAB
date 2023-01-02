@@ -1,14 +1,12 @@
-@import url(/csss/CssHomepage/navbar.css);
-@import url(/csss/CssHomepage/hero.css);
-@import url(/csss/CssHomepage/client.css);
-@import url(/csss/CssHomepage/projects.css);
-@import url(/csss/CssHomepage/testimonial.css);
-@import url(/csss/CssHomepage/services.css);
-@import url(/csss/CssHomepage/cta.css);
-@import url(/csss/CssHomepage/footer.css);
-@import url(/csss/Csscontactus/contactus.css);
-
-
+@import url("./navbar.css");
+@import url("./hero.css");
+@import url("./client.css");
+@import url("./projects.css");
+@import url("./testimonial.css");
+@import url("./services.css");
+@import url("./cta.css");
+@import url("./footer.css");
+@import url("../Csscontactus/contactus.css");
 *{
     box-sizing: border-box;
 }
